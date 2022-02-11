@@ -1,19 +1,82 @@
 body {
-  font-family: system-ui;
-  background: #f06d06;
-  color: black;
-  text-align: center;
+  /* from OBS */
+  margin: 0px auto;
+  background-color: rgba(0, 0, 0, 0);
+  /* overflow: hidden;  */
+
+  
+
+  font-family: 'Montserrat', sans-serif;
+  
+  text-align: center;  
+}
+
+.generador {
+  background-color: orange;
+  padding-top: 20px;
 }
 
 .contenedor {
-  height: 1080px;
-  background-color: lightyellow;
+  height: 1080px; 
+
+  display:flex;
+  
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  
+
+  /* Para justificar a la izquierda
+  justify-content: flex-end; */
+
+  align-items: flex-start;
+
 }
 
 .nombre {
-  background-color: aquamarine;
+  background-color: #002d40;
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  
+  margin-left: 100px;
+  padding: 10px 50px 10px 50px;
+  
+  
+  
 }
 
 .cargo {
-  background-color: lightgreen;
+  background-color: #002d40;
+  color: yellow;
+  font-size: 36px; 
+  font-weight: 500; 
+  margin-left: 100px;
+  margin-bottom: 50px;
+  padding: 10px 50px 10px 50px;
+  
+  
+}
+
+
+
+input {
+  width: 33%;
+  font-size: 26px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 12px 20px;
+  margin: 8px;
+}
+
+button {
+  background-color: darkblue;
+  border-radius: 12px;
+  color: white;
+  font-size: 26px;  
+  padding: 12px 20px;
+  border: none;  
+}
+
+.button:hover {
+  background-color: orange;
+  color: white;
 }
