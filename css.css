@@ -2,7 +2,7 @@ body {
   /* from OBS */
   margin: 0px auto;
   background-color: rgba(0, 0, 0, 0);
-  /* overflow: hidden;  */
+   overflow: hidden; 
 
   
 
@@ -14,10 +14,11 @@ body {
 .generador {
   background-color: orange;
   padding-top: 20px;
+  height: 540px; 
 }
 
 .contenedor {
-  height: 1080px; 
+  height: 540px;  
 
   display:flex;
   
