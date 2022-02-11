@@ -1,6 +1,19 @@
 body {
   font-family: system-ui;
-  /* background: #f06d06; */
+  background: #f06d06;
   color: black;
   text-align: center;
+}
+
+.contenedor {
+  height: 1080px;
+  background-color: lightyellow;
+}
+
+.nombre {
+  background-color: aquamarine;
+}
+
+.cargo {
+  background-color: lightgreen;
 }
